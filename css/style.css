@@ -1,0 +1,160 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height:24px;
+}
+h1, h2, h3{
+    font-family: sans-serif;
+    text-align:center;
+    margin:50px 0px 30px 0px;
+    line-height: 30px;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+  width:600px;
+  height: 1800px;
+  position:relative;
+  top:30px;
+  left: 330px;
+}
+/* Bangladesh & Japan Flags */
+.green{
+    background-color: green;
+    width: 600px;
+    height:325px;
+    position:relative;
+    transition: 1s;
+}
+.green:hover{
+    background-color: white;
+    border:1px solid #5c5a5a;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+    width: 200px;
+    height:200px;
+    top:62.5px;
+    left:200px;
+    border-radius: 50%;
+    position:absolute;
+}
+/* Canada Flag */
+.main{
+    display:flex;
+}
+.left-red, .right-red{
+    width:150px;
+    height:325px;
+    background-color: red;
+   
+}
+.center{
+    width:300px;
+    height:325px;
+    color:#fff;
+    text-align: center;
+    margin-top:40px;
+}
+.center img{
+    width:250px;
+}
+
+/* Canada Flag */
+
+.left-blue{
+    background-color: blue;
+    width:200px;
+    height:325px;
+    transition:1s;
+}
+.center-white{
+    background-color: #fff;
+    width:200px;
+    height:325px;
+}
+.last-red{
+    background-color:red;
+    width:200px;
+    height:325px;
+}
+
+.left-blue:hover{
+    background-color: green;
+    cursor:pointer;
+}
+
+.fb-share{
+    width:150px;
+    position:fixed;
+    top: 100px;
+    right:-100px;
+    transition: 1s;
+}
+.fb-share:hover{
+    right:2px;
+    cursor: pointer;
+}
+
+.youtube-share{
+    width:150px;
+    position:fixed;
+    top: 250px;
+    right:-105px;
+    transition: 1s;
+}
+.youtube-share:hover{
+    right:1px;
+    cursor: pointer;
+}
+.twitter-share{
+    width:150px;
+    position:fixed;
+    top: 400px;
+    right:-105px;
+    transition: 1s;
+}
+.twitter-share:hover{
+    right:1px;
+    cursor: pointer;
+}
+.social-icons{
+    width:100%;
+    display: block;
+    text-align: center;
+    padding: 100px 0px 0px;
+}
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icons li a{
+    display: block;
+    width: 80px;
+    height:80px;
+    line-height: 80px;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(11, 92, 244);
+    color: #ffffff;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 1s;
+}
+.social-icons li a:hover{
+    background-color: black;
+    color: rgb(238, 255, 0)
+}
